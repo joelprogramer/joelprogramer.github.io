@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    hej
+
+    <h2>gissa talet</h2>
+    <div class="center">
+        <b>gissa ett tal 1-9! </b>
+        <input type="text" id="gissa" size="1" tabindex="1">
+        <button id="gissabut" onclick="gissaTal()" class="gissatal" tabindex="2">gissa</button>
+        <p id="p_svar"></p>
+
+
+    </div>
+
+    <div>
+
+        <button class="reload_but" onclick="location.reload()">ladda om sida</button>
+    </div>
+
+
+
 </body>
+<script src="gissa.js"></script>
 </html>
