@@ -33,14 +33,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to handle user input and AI response
     function handleUserInput(userInput) {
-        var aiResponse = getAIResponse(userInput);
-        appendMessage("AI", aiResponse);
+        var Max_the_AIResponse = getMax_the_AIResponse(userInput);
+        appendMessage("Max_the_AI", Max_the_AIResponse);
     }
 
     // Function to get AI response (dummy implementation)
-    function getAIResponse(userInput) {
+    function getMax_the_AIResponse(userInput) {
         // You would typically send a request to your AI backend here to get the response
         // For this example, we will use a dummy response
-        return "This is a dummy AI response for: " + userInput;
+        return "hello I am an dummy AI: " + userInput;
     }
 });
