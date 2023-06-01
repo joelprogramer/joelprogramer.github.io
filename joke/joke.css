@@ -1,7 +1,7 @@
 body {
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background-image: linear-gradient(to top, rgb(197, 0, 197), rgb(65, 0, 65));
-background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to top, rgb(197, 0, 197), rgb(65, 0, 65));
+    background-repeat: no-repeat;
 }
 
 img {
@@ -16,7 +16,10 @@ img {
     border-radius: 20px;
 }
 
-.inner_div { margin: 20px; }
+.inner_div {
+    margin: 20px;
+}
+
 h2 {
     margin: 20px;
 }
