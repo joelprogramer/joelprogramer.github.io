@@ -9,11 +9,11 @@ img {
 }
 
 .div_main {
-    margin: 10%;
+margin: 10%;
     width: 80%;
     height: 500px;
     background-color: blueviolet;
-    border-radius: 20px;
+    border-radius: 20px    ;
 }
 
 .inner_div {

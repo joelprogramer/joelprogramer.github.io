@@ -1,9 +1,26 @@
 body {
-    background-color: wheat;
+    background-color: rgb(254, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to top, rgb(255, 0, 0), rgb(65, 0, 65));
+    background-repeat: no-repeat;
+
+    margin: 10%;
+    width: 80%;
+    height: 500px;
+    background-color: brown;
+    border-radius: 20px;
 }
+
 h1 {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
+    left: 40%;
+}
+
+a {
+    color: chartreuse;
+    position: relative;
     left: 46%;
+    top: 50px;
 }
