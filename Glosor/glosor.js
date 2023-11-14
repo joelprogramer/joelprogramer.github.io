@@ -1,40 +1,51 @@
-const question = document.getElementById('question')
+const question = document.getElementById('Question')
 const answerInput = document.getElementById('answer')
 const checkButton = document.getElementById('check-button')
 const result = document.getElementById('result')
 
-const wordPairs = [
+
+let currentPairIndex = 0;
+
+
+let wordPairs = [
     { question: 'apple', answer: 'äpple' },
-    { question: 'bananana', answer: 'banan' },
+    { question: 'banana', answer: 'banan' },
     { question: 'car', answer: 'bil' },
 ];
 
-let currentPairIndex
+
 
 function showNextQuestion() {
+
+    
     if (currentPairIndex < wordPairs.length) {
-        question.innerText = 'Översätt detta ord: ${wordPairs[currentPairIndex].question}';
-        answerInput.value = '';
-        checkButton.innerText = '';
-    } else {
-        question.innerText = 'glosföret är avlsutat!!!';
+        question.innerText = `Översätt detta ord: ${wordPairs[currentPairIndex].Question}`;
+        answerInput.value = ''; 
+        checkButton.innerText = 'kontrolera';
+    }
+    else {
+        question.innerText = 'glosförhöret är avslutat!!';
         answerInput.style.display = 'none';
         checkButton.style.display = 'none';
     }
 }
 
 checkButton.addEventListener('click', () => {
-    const useranswer = answerInput.value.toLowerCase();
-    const correctaswer = wordPairs[currentPairIndex].answer.toLowerCase();
 
-    if (useranswer === currentanswer) {
-        result.innerText = 'rätt swar';
+   
+
+    const userAnswer = answerInput.value.toLowerCase();
+    const correctAnswer = wordPairs[currentPairIndex].answer.toLowerCase();
+
+    if (userAnswer === correctAnswer) {
+        result.innerText = 'Rätt svar';
     } else {
-        result.innerText = 'fel Swar';
+        result.innerText = 'Fel svar';
     }
 
     currentPairIndex++;
     showNextQuestion();
+     
 })
 
 showNextQuestion();
