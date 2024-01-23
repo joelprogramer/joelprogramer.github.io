@@ -2,7 +2,7 @@ const form = document.getElementById("text")
 const svarText = document.getElementById("svar")
 const ordText = document.getElementById("ordet")
 
-let ordet = "tjena"
+let ordet = "tjena du"
 let gissaOrdetArray = Array.from(ordet)
 let hemligaOrdetArray = hideTheWord(ordet)
 
