@@ -1,6 +1,7 @@
 {
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.words": [
+        "alfabet",
         "alla",
         "anning",
         "antal",
@@ -56,6 +57,9 @@
         "kommu",
         "kort",
         "kostar",
+        "krypter",
+        "Kryptera",
+        "kryptering",
         "Kula",
         "lambo",
         "länkar",
@@ -71,6 +75,7 @@
         "omgången",
         "openai",
         "ordet",
+        "palindrom",
         "påse",
         "Pengar",
         "pengasort",
@@ -105,6 +110,7 @@
         "tjena",
         "valör",
         "valuen",
+        "vänd",
         "vann",
         "varan",
         "varje",
